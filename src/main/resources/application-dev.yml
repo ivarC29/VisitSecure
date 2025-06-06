@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://${PGHOST:localhost}:5432/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  datasource:
+    url: jdbc:postgresql://${PGHOST:localhost}:5432/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
